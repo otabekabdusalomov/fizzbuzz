@@ -23,7 +23,7 @@ elForm.addEventListener ("submit", function (evt){
         elFormResult.textContent = `Buzz`;
 
     } else {
-        elFormResult.textContent = `Mavjud emas`;
+        elFormResult.textContent = `${elFormInput.value}`;
     }
 
 })
